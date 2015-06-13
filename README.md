@@ -1,7 +1,7 @@
 craft-mnbreakandcontinue
 ========================
 
-*** This is the Craft 2 version. Craft 3 version is available in the craft3 branch ***
+***This is the Craft 2 version. Craft 3 version is available in the craft3 branch***
 
 {%break%} and {%continue%} twig tags for craft.
 
