@@ -27,3 +27,8 @@ craft-mnbreakandcontinue
       {% endif %}
       {# do whatever... #}
     {% endfor %}
+
+**Change Log**
+
+- 2.0 - version for Craft 3 (Craft 2 version is in the master branch)
+- 1.0 - initial release

@@ -1,5 +1,5 @@
 <?php
-namespace Craft;
+namespace craft\plugins\mnbreakandcontinue\twigextensions;
 
 /**
  * MN Break and Continue

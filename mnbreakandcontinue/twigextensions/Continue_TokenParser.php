@@ -1,5 +1,7 @@
 <?php
-namespace Craft;
+namespace craft\plugins\mnbreakandcontinue\twigextensions;
+
+use craft\plugins\mnbreakandcontinue\twigextensions\Continue_Node;
 
 /**
  * MN Break and Continue
@@ -11,7 +13,6 @@ namespace Craft;
  * @link      https://github.com/marionnewlevant/craft-mnbreakandcontinue
  */
 
-require_once('Continue_Node.php');
 
 class Continue_TokenParser extends \Twig_TokenParser
 {

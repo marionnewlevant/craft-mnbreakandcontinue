@@ -1,5 +1,8 @@
 <?php
-namespace Craft;
+namespace craft\plugins\mnbreakandcontinue\twigextensions;
+
+use craft\plugins\mnbreakandcontinue\twigextensions\Break_TokenParser;
+use craft\plugins\mnbreakandcontinue\twigextensions\Continue_TokenParser;
 
 /**
  * MN Break and Continue
@@ -11,21 +14,18 @@ namespace Craft;
  * @link      https://github.com/marionnewlevant/craft-mnbreakandcontinue
  */
 
-require_once('Break_TokenParser.php');
-require_once('Continue_TokenParser.php');
-
-class MNBreakAndContinueTwigExtension extends \Twig_Extension
+class Twig_Extension extends \Twig_Extension
 {
 	public function getTokenParsers()
 	{
-		return array(
+		return [
 			new Break_TokenParser(),
 			new Continue_TokenParser(),
-		);
+		];
 	}
 
 	public function getName()
 	{
-		return Craft::t('MN Break and Continue');
+		return 'MN Break and Continue';
 	}
 }

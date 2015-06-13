@@ -1,6 +1,7 @@
 <?php
-namespace Craft;
+namespace craft\plugins\mnbreakandcontinue\twigextensions;
 
+use craft\plugins\mnbreakandcontinue\twigextensions\Break_Node;
 /**
  * MN Break and Continue
  *
@@ -11,7 +12,6 @@ namespace Craft;
  * @link      https://github.com/marionnewlevant/craft-mnbreakandcontinue
  */
 
-require_once('Break_Node.php');
 
 class Break_TokenParser extends \Twig_TokenParser
 {
@@ -23,7 +23,7 @@ class Break_TokenParser extends \Twig_TokenParser
 
 		$stream->expect(\Twig_Token::BLOCK_END_TYPE);
 
-		return new Break_Node(array(), array(), $lineno, $this->getTag());
+		return new Break_Node([], [], $lineno, $this->getTag());
 	}
 
 	public function getTag()
