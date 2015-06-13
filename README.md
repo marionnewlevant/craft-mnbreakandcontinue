@@ -30,6 +30,6 @@ craft-mnbreakandcontinue
       {# do whatever... #}
     {% endfor %}
 
-** Change Log **
+**Change Log**
 
 - 1.0: Initial release
