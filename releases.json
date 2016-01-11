@@ -1,0 +1,20 @@
+[
+  {
+    "version": "1.0",
+    "downloadUrl": "https://github.com/marionnewlevant/craft-mnbreakandcontinue/tree/v1.0",
+    "date": "2014-06-09T22:57:00-08:00",
+    "notes": [
+      "# Initial Release",
+      "[Added] Twig {% break %} tag",
+      "[Added] Twig {% continue %} tag"
+    ]
+  },
+  {
+    "version": "1.1",
+    "downloadUrl": "https://github.com/marionnewlevant/craft-mnbreakandcontinue/tree/v1.1",
+    "date": "2016-01-10T22:20:00-08:00",
+    "notes": [
+      "[Added] Craft 2.5 plugin features"
+    ]
+  }
+]

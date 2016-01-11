@@ -18,9 +18,24 @@ class MNBreakAndContinuePlugin extends BasePlugin
 		return Craft::t('MN Break and Continue');
 	}
 
+	public function getDescription()
+	{
+		return '{% break %} and {% continue %} twig tags';
+	}
+
+	public function getDocumentationUrl()
+	{
+		return 'https://github.com/marionnewlevant/craft-mnbreakandcontinue';
+	}
+
 	public function getVersion()
 	{
-		return '1.0';
+		return '1.1';
+	}
+
+	public function getReleaseFeedUrl()
+	{
+		return 'https://raw.githubusercontent.com/marionnewlevant/craft-mnbreakandcontinue/master/releases.json';
 	}
 
 	public function getDeveloper()
