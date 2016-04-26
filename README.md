@@ -30,5 +30,6 @@ craft-mnbreakandcontinue
 
 **Change Log**
 
+- 2.1 - craft 3 version with fix to preserve loop variable with {% continue %}
 - 2.0 - version for Craft 3 (Craft 2 version is in the master branch)
 - 1.0 - initial release
