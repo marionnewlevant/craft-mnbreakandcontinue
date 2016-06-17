@@ -36,3 +36,4 @@ See also [craft-twig-perversion](https://github.com/marionnewlevant/craft-twig_p
 
 - 1.0: Initial release
 - 1.1.1: Continue tag now support loop variable
+- 1.1.2: Continue tag does better job of supporting loop variable
